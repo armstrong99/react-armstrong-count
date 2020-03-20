@@ -1,0 +1,35 @@
+header#landingHead {
+    height: 10rem;
+    background: black url('https://media.giphy.com/media/WPuuSOpx2OotJyVUJF/giphy.gif') center center ;
+    margin-top: 0;
+    top: 0;
+    padding: 0;
+}
+ 
+ul#landingHeader {
+    display: flex;
+    flex: 1;
+    justify-items: stretch;
+    justify-content: space-between;
+    margin: 0
+  }
+ul#landingHeader li {
+    list-style-type: none;
+}
+ul#landingHeader li:first-child {
+   align-self: flex-start;
+   color: #66CC33;
+   font-size: large;
+   font-weight: bold;
+ }
+ul#landingHeader li:nth-child(2) {
+    color: white;
+    margin-right: 0.5rem;
+    display: none
+ }
+ul#landingHeader + h1 {
+width: fit-content;
+margin: 2rem auto auto auto;
+color: rgb(165, 42, 42);
+ 
+}

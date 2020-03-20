@@ -1,0 +1,25 @@
+/* nav#mainHeader {
+    
+    background: transparent;
+    height: 2.5rem;
+     padding-top: .5rem;
+background-blend-mode: hard-light;
+ } */
+ul#mainHeader {
+    display: flex;
+    flex: 1;
+    justify-items: stretch;
+    justify-content: space-between;
+    margin:0;
+  }
+  ul#mainHeader li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: large
+}
+ul#mainHeader li:first-child {
+margin-left: .1rem;
+}
+ul#mainHeader li:nth-child(2) {
+    margin-right: .5rem
+}

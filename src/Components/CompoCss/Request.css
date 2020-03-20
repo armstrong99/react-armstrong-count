@@ -1,0 +1,7 @@
+h2#reqH p {
+    text-align: center
+}
+section#reqSec {
+    /* margin: auto 0 auto 0; */
+    min-height: 100vh
+}
