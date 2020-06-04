@@ -3,7 +3,7 @@
 
 # Demo
 
-![Demo](demo.png?raw=true "Demo Image")
+![Demo](demo.gif?raw=true "Demo Image")
 
 # Get Started
 

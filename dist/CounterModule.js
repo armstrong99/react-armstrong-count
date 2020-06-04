@@ -17,7 +17,7 @@ const Armstrong = ({
     if (!isNaN(iValue)) {
       setcount(iValue);
     } else setcount(0);
-  }, [startBol]);
+  }, [startBol, iValue]);
   useEffect(() => {
     var interval = setInterval(() => {
       if (start === 'start') return setcount(count + 1);
