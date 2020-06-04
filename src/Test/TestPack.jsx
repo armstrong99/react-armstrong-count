@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Armstrong from './CounterModule';
+import Armstrong from '../NpmCounterPack/CounterModule';
 
 const TestPack = () => {
 
