@@ -82,15 +82,20 @@ export default TestPack;
 ```
 ## Props 
 
-### inter: This number value represents the Interval of the counter, it takes single values like 1 for One second, 2 for Two seconds etc
+### inter: 
+This number value represents the Interval of the counter, it takes single values like 1 for One second, 2 for Two seconds etc
 
-### startBol: This prop must recieve a String value of #### 'start' for the counter to start
+### startBol: 
+ This prop must recieve a String value of 'start' for the counter to start
 
-### stopTime: This prop recieves a number value, which is the value at which the counter stops
+### stopTime: 
+ This prop recieves a number value, which is the value at which the counter stops
 
-### getCount: This props takes a callback function, which recieves the count value(s) and can be safely used to setState(or useState) in the concerned Component
+### getCount:
+ This props takes a callback function, which recieves the count value(s) and can be safely used to setState(or useState) in the concerned Component
 
-### iValue: This is the initial value the counter should start, if not Specified is default to Zero(0)
+### iValue: 
+ This is the initial value the counter should start, if not Specified is default to Zero(0)
 
 # Contribution
 
