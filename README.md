@@ -1,43 +1,123 @@
+# react-armstrong-count
 
 
-## Clickmeals.me
+# Demo
 
-In the project directory, you can run:
+![An Example of How Module Works](Demo/demo.gif)
 
-### `npm start`
+# Get Started
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a light-weight and easy-to-use module created for React developers to solve the pains of debugging and setting up counters for their applications
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+```bash
+npm install react-armstrong-count
+```
+or with yarn
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+yarn add react-armstrong-count
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```python
+import React, { useState } from 'react';
+import Armstrong from 'react-armstrong-count';
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+const TestPack = () => {
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  const[val, setVal] = useState('')
+  const[sBol, setBol] = useState('')
 
-### `npm run eject`
+  const getCount = c => setVal(c)
+ const handleSBol = () => setBol('start')
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    return (
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        <>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+         <Armstrong inter={1000} startBol={sBol} stopTime={10} getCount={getCount} iValue={5}>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+        <section style={{display:'flex',height:'100vh',alignItems:'center',justifyContent:'center', flexFlow:'column', background:'#c0c0c000'}}>
 
-## About
 
-Clickmeals official - NC Armstrong
+                    <h1>{val}</h1>
+
+                        <div style={{
+                            background:'red',
+                            width:`${val}rem`, 
+                            textAlign:'center',
+                            padding: '1rem',
+                            color: 'white',
+
+                        }}>
+                            { Number(val) * 2 }
+                    
+                        </div>
+
+                    <button style={{
+                        padding: '2rem',
+                        marginTop: '3rem',
+                        background: 'limegreen',
+                        color: 'white',
+                        border: 'none',
+                        outline: 'none',
+                        borderRadius: '3rem',
+                        width: '10rem',
+                        fontSize: '1.45rem',
+                     }} onClick={handleSBol}>Start</button>   
+    </section>
+        
+ </Armstrong>
+
+        </>
+
+    );
+}
+ 
+export default TestPack;
+
+```
+## Props 
+
+### inter: This number value represents the Interval of the counter, it takes single values like 1 for One second, 2 for Two seconds etc
+
+### startBol: This prop must recieve a String value of #### 'start' for the counter to start
+
+### stopTime: This prop recieves a number value, which is the value at which the counter stops
+
+### getCount: This props takes a callback function, which recieves the count value(s) and can be safely used to setState(or useState) in the concerned Component
+
+### iValue: This is the initial value the counter should start, if not Specified is default to Zero(0)
+
+# Contribution
+
+1. Fork it!
+
+2. Create your feature branch: git checkout -b feature-name
+
+3. Commit your changes: git commit -am 'Some commit message'
+
+4. Push to the branch: git push origin feature-name
+
+5. Submit a pull request 😉😉
+
+# How Can I Thank You ?
+
+Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or Any Social Media? And talk about it within your friends and event or workshop ? Spread the word!
+
+Dont forget to [follow me on Twitter ](https://twitter.com/AI_Lift)
+
+Thanks! NC Armstrong
+
+# License
+
+This project is licensed under the MIT License
+
+
+
+
+
  

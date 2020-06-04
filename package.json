@@ -1,7 +1,20 @@
 {
-  "name": "clickmeal",
+  "name": "react-armstrong-count",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "NC Armstrong",
+  "keywords": [ 
+    "JavaScript", 
+    "ReactJS", 
+    "github",
+  "Open Source",
+  "React"
+ ],
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",
@@ -20,7 +33,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/NpmCounterPack -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/preset-react": "^7.10.1"
   }
 }

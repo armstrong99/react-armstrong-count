@@ -1,8 +1,9 @@
 import React from 'react';
 import {Switch, Router, Route} from 'react-router-dom'
 import { createBrowserHistory } from "history";
-import Main from './FutureMe/View/Main';
-  
+// import TestPack from './Test/TestPack';
+// import CounterModule from './NpmCounterPack/CounterModule';
+   
  
 
  
@@ -18,7 +19,8 @@ function App() {
         <Switch>
  
  
-      <Route exact path='/' component={Main} />  
+       {/* <Route exact path='/npmPackage' component={CounterModule} />   */}
+      {/* <Route exact path='/npmTest' component={TestPack} />   */}
        
         </Switch>
         </Router>
