@@ -3,7 +3,7 @@
 
 # Demo
 
-![An Example of How Module Works](Demo/demo.gif)
+![An Example of How Module Works](demo.gif?raw=true "Demo Image")
 
 # Get Started
 
@@ -22,7 +22,7 @@ yarn add react-armstrong-count
 
 ## Usage
 
-```python
+```javascript
 import React, { useState } from 'react';
 import Armstrong from 'react-armstrong-count';
 
@@ -99,7 +99,7 @@ This number value represents the Interval of the counter, it takes single values
 
 # Contribution
 
-1. Fork it!
+1. [Fork it!](https://github.com/armstrong99/react-armstrong-count)
 
 2. Create your feature branch: git checkout -b feature-name
 
