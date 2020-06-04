@@ -11,7 +11,7 @@ if(!isNaN(iValue)) {
  setcount(iValue)
 } else setcount(0)
 
- },[startBol] )
+ },[startBol, iValue] )
 
      useEffect(() => {
 

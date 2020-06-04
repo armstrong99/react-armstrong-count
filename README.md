@@ -3,7 +3,7 @@
 
 # Demo
 
-![An Example of How Module Works](Demo/demo.gif)
+![An Example of How Module Works](Demo/demo.png)
 
 # Get Started
 
