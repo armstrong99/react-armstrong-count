@@ -38,7 +38,7 @@ const TestPack = () => {
 
         <>
 
-         <Armstrong inter={1000} startBol={sBol} stopTime={10} getCount={getCount} iValue={5}>
+         <Armstrong inter={1} startBol={sBol} stopTime={10} getCount={getCount} iValue={5}>
 
         <section style={{display:'flex',height:'100vh',alignItems:'center',justifyContent:'center', flexFlow:'column', background:'#c0c0c000'}}>
 
