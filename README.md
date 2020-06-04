@@ -3,7 +3,11 @@
 
 # Demo
 
+<<<<<<< HEAD
 ![An Example of How Module Works](demo.gif?raw=true "Demo Image")
+=======
+![An Example of How Module Works](Demo/demo.png)
+>>>>>>> netlify_produc
 
 # Get Started
 
