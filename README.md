@@ -7,7 +7,7 @@
 
 # Get Started
 
-This is a light-weight and easy-to-use module created for React developers to solve the pains of debugging and setting up counters for their applications
+This is a light-weight and easy-to-use module created for React developers to solve the pains of debugging and setting up shedulers for their applications
 
 ## Installation
 
